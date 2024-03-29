@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import { Card, Metric, Text } from "@tremor/react";
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,9 +12,17 @@ function App() {
     <div className="grid grid-cols-2 gap-12">
       <div>
         <h2 className="text-2xl font-bold">Barbie</h2>
+        <Card className="mx-auto max-w-xs" decoration="top" decorationColor="indigo">
+          <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">Sales</p>
+          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">$34,743</p>
+        </Card>
       </div>
       <div>
         <h2 className="text-2xl font-bold">Oppenheimer</h2>
+        <Card className="mx-auto max-w-xs" decoration="top" decorationColor="indigo">
+          <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">Sales</p>
+          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">$34,743</p>
+        </Card>
       </div>
     </div>
   )
