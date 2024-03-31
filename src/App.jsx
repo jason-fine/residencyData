@@ -12,16 +12,21 @@ function App() {
   const [count, setCount] = useState(0)
 
   const [selectedSpecialty, setSelectedSpecialty] = useState('Total PGY-1');
+  const [selectedYear, setSelectedYear] = useState(2024);
 
   const handleSpecialtyChange = (event) => {
     setSelectedSpecialty(event.target.value);
+  };
+
+  const handleYearChange = (event) => {
+    setSelectedYear(parseInt(event.target.value));
   };
 
 
   return (
     <div className="grid grid-cols-3 gap-12">
       <div>
-      <h2 className="text-2xl font-bold mb-6">Select Medical Specialty</h2>
+      <h2 className="text-2xl font-bold mb-6">Select Medical Specialty and Year</h2>
         <select value={selectedSpecialty} onChange={handleSpecialtyChange} className="mb-6">
           <option value="Anesthesiology">Anesthesiology</option>
           <option value="Child Neurology">Child Neurology</option>
@@ -73,31 +78,41 @@ function App() {
           <option value="Vascular Surgery">Vascular Surgery</option>
           <option value="Total PGY-1">Total PGY-1</option>
         </select>
+        
+        <select value={selectedYear} onChange={handleYearChange} className="mb-6">
+          <option value={2024}>2024</option>
+          <option value={2023}>2023</option>
+          <option value={2022}>2022</option>
+          <option value={2021}>2021</option>
+          <option value={2020}>2020</option>
+          
+        </select>
+      
         <Card className="mx-auto max-w-xs mb-6" decoration="top" decorationColor="indigo">
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">Total Residency Spots Available</p>
-          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{mdData[2024][selectedSpecialty].Positions_Offered}</p>
+          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{mdData[selectedYear][selectedSpecialty].Positions_Offered}</p>
         </Card>
       </div>
       <div>
         <h2 className="text-2xl font-bold mb-6">MD</h2>
         <Card className="mx-auto max-w-xs mb-6" decoration="top" decorationColor="indigo">
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">2024 Applicants in {selectedSpecialty}</p>
-          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{mdData[2024][selectedSpecialty].No_of_Applicants}</p>
+          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{mdData[selectedYear][selectedSpecialty].No_of_Applicants}</p>
         </Card>
         <Card className="mx-auto max-w-xs" decoration="top" decorationColor="indigo">
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">2024 Percentage of Positions Filled by Senior MDs in {selectedSpecialty}</p>
-          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{mdData[2024][selectedSpecialty].Percentage_Filled}%</p>
+          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{mdData[selectedYear][selectedSpecialty].Percentage_Filled}%</p>
         </Card>
       </div>
       <div>
         <h2 className="text-2xl font-bold mb-6">DO</h2>
         <Card className="mx-auto max-w-xs mb-6" decoration="top" decorationColor="indigo">
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">2024 Applicants in {selectedSpecialty}</p>
-          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{doData[2024][selectedSpecialty].No_of_Applicants}</p>
+          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{doData[selectedYear][selectedSpecialty].No_of_Applicants}</p>
         </Card>
         <Card className="mx-auto max-w-xs" decoration="top" decorationColor="indigo">
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">2024 Percentage of Positions Filled by Senior DOs in {selectedSpecialty}</p>
-          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{doData[2024][selectedSpecialty].Percentage_Filled}%</p>
+          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">{doData[selectedYear][selectedSpecialty].Percentage_Filled}%</p>
         </Card>
       </div>
     </div>
