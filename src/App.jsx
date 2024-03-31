@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-    <div className="grid grid-cols-2 gap-12">
+    <div className="grid grid-cols-3 gap-12">
       <div>
       <h2 className="text-2xl font-bold mb-6">Select Medical Specialty</h2>
         <select value={selectedSpecialty} onChange={handleSpecialtyChange} className="mb-6">
