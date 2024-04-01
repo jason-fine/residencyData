@@ -187,6 +187,7 @@ function App() {
           yAxisWidth={65}
           categories={[`${selectedSpecialtyChart}.Matched MDs`,`${selectedSpecialtyChart}.Unmatched MDs`,`${selectedSpecialtyChart}.Total MDs`]}
           colors={['indigo','orange','cyan']}
+          
         />
         <LineChart
           className="mt-4 h-72"
