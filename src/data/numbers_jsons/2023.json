@@ -1,4 +1,5 @@
 {
+  "Year": "2023",
   "Anesthesiology": {
     "Specialty": "Anesthesiology",
     "Matched MDs": 907,
@@ -402,7 +403,7 @@
     "% Matched Applicants DOs": 0.0,
     "% Unmatched DOs": 100.0
   },
-  "Totay PGY-1": {
+  "Total PGY-1": {
     "Specialty": "Totay PGY-1",
     "Matched MDs": 14967,
     "Matched DOs": 5048,
