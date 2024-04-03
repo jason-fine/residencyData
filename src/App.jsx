@@ -11,6 +11,54 @@ import data2021 from './data/numbers_jsons/2021.json'
 import data2022 from './data/numbers_jsons/2022.json'
 import data2023 from './data/numbers_jsons/2023.json'
 
+
+//new data
+// import longtermDo2004 from './data/';
+// C:\Users\jason\Documents\6440\practicumCode\residencyData\data\lastdatatoadd\do\2004.json
+// import longtermDo2005 from './data/lastdatatoadd/do/2005.json';
+// import longtermDo2006 from './data/lastdatatoadd/do/2006.json';
+// import longtermDo2007 from './data/lastdatatoadd/do/2007.json';
+// import longtermDo2008 from './data/lastdatatoadd/do/2008.json';
+// import longtermDo2009 from './data/lastdatatoadd/do/2009.json';
+// import longtermDo2010 from './data/lastdatatoadd/do/2010.json';
+// import longtermDo2011 from './data/lastdatatoadd/do/2011.json';
+// import longtermDo2012 from './data/lastdatatoadd/do/2012.json';
+// import longtermDo2013 from './data/lastdatatoadd/do/2013.json';
+// import longtermDo2014 from './data/lastdatatoadd/do/2014.json';
+// import longtermDo2015 from './data/lastdatatoadd/do/2015.json';
+// import longtermDo2016 from './data/lastdatatoadd/do/2016.json';
+// import longtermDo2017 from './data/lastdatatoadd/do/2017.json';
+// import longtermDo2018 from './data/lastdatatoadd/do/2018.json';
+// import longtermDo2019 from './data/lastdatatoadd/do/2019.json';
+// import longtermDo2020 from './data/lastdatatoadd/do/2020.json';
+// import longtermDo2021 from './data/lastdatatoadd/do/2021.json';
+// import longtermDo2022 from './data/lastdatatoadd/do/2022.json';
+// import longtermDo2023 from './data/lastdatatoadd/do/2023.json';
+
+
+// import longtermMd2004 from './data/lastdatatoadd/md/2004.json';
+// import longtermMd2005 from './data/lastdatatoadd/md/2005.json';
+// import longtermMd2006 from './data/lastdatatoadd/md/2006.json';
+// import longtermMd2007 from './data/lastdatatoadd/md/2007.json';
+// import longtermMd2008 from './data/lastdatatoadd/md/2008.json';
+// import longtermMd2009 from './data/lastdatatoadd/md/2009.json';
+// import longtermMd2010 from './data/lastdatatoadd/md/2010.json';
+// import longtermMd2011 from './data/lastdatatoadd/md/2011.json';
+// import longtermMd2012 from './data/lastdatatoadd/md/2012.json';
+// import longtermMd2013 from './data/lastdatatoadd/md/2013.json';
+// import longtermMd2014 from './data/lastdatatoadd/md/2014.json';
+// import longtermMd2015 from './data/lastdatatoadd/md/2015.json';
+// import longtermMd2016 from './data/lastdatatoadd/md/2016.json';
+// import longtermMd2017 from './data/lastdatatoadd/md/2017.json';
+// import longtermMd2018 from './data/lastdatatoadd/md/2018.json';
+// import longtermMd2019 from './data/lastdatatoadd/md/2019.json';
+// import longtermMd2020 from './data/lastdatatoadd/md/2020.json';
+// import longtermMd2021 from './data/lastdatatoadd/md/2021.json';
+// import longtermMd2022 from './data/lastdatatoadd/md/2022.json';
+// import longtermMd2023 from './data/lastdatatoadd/md/2023.json';
+
+//end of new data
+
 import { Card, Metric, Text } from "@tremor/react";
 import { LineChart } from '@tremor/react';
 
