@@ -1,0 +1,77 @@
+[33mcommit fcf2d6103edc5e80083b4d56678165f03b770b25[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Wed Apr 3 02:23:15 2024 -0400
+
+    added data from 2004 onward
+
+[33mcommit 2e4b30b8afd9143891dbdede58a75e104e6f3c5b[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sun Mar 31 21:17:03 2024 -0400
+
+    line graph edits
+
+[33mcommit 794bb39c4d09fc53d53c889bf8ac671f97fcd249[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sun Mar 31 20:52:48 2024 -0400
+
+    added line graph charting match rate changes
+
+[33mcommit 5f827f31c9b780cd4cbd75d74d584fd540d1cc45[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sun Mar 31 15:41:32 2024 -0400
+
+    added another data source
+
+[33mcommit 6b0344dd29785813cddd3182c7953057a5445f76[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sun Mar 31 00:18:37 2024 -0400
+
+    added year filter
+
+[33mcommit 41d263246aa44cf7137f1d1f9122725980166064[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sat Mar 30 21:10:49 2024 -0400
+
+    put cards into 3 columns
+
+[33mcommit 357bab73d975097da3eaae537c0d59d6e1f28605[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sat Mar 30 21:05:35 2024 -0400
+
+    added card values to dashboard
+
+[33mcommit 3ed475579dd7c17f8c13e85a3d22d3a5e985e297[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sat Mar 30 19:53:48 2024 -0400
+
+    combined jsons and put data on dashboard
+
+[33mcommit 69c7b491221f66860c66b40f104b49ad73793b08[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Sat Mar 30 18:48:11 2024 -0400
+
+    added 5 years of match data
+
+[33mcommit 53eafd037a330508a37db54b605469e2d2cf05be[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Fri Mar 29 16:57:35 2024 -0400
+
+    added cards
+
+[33mcommit c8480756a4503b2320f97664f73466be01b16f0c[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Thu Mar 28 21:51:28 2024 -0400
+
+    react tailwind setup
+
+[33mcommit 8f160aeb2bd281e283b8fb735d8efdc6aa301edf[m
+Author: Jason Fine <jasonfine94@gmail.com>
+Date:   Thu Mar 28 21:35:46 2024 -0400
+
+    making changes
+
+[33mcommit ec03bfacb4944137e13a0ca526390d0e128adcae[m
+Author: jason-fine <74693076+jason-fine@users.noreply.github.com>
+Date:   Thu Mar 28 20:50:29 2024 -0400
+
+    Initial commit

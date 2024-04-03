@@ -1,0 +1,197 @@
+{
+  "year": 2021,
+  "results": {
+    "Anesthesiology:": {
+      "Number_Matched": 1024,
+      "Percentage_of_Matches": 5.6
+    },
+    "Child Neurology:": {
+      "Number_Matched": 100,
+      "Percentage_of_Matches": 0.5
+    },
+    "Dermatology:": {
+      "Number_Matched": 25,
+      "Percentage_of_Matches": 0.1
+    },
+    "Emergency Medicine:": {
+      "Number_Matched": 1765,
+      "Percentage_of_Matches": 9.6
+    },
+    "Emergency Med-Anesthesiology:": {
+      "Number_Matched": 2,
+      "Percentage_of_Matches": 0.0
+    },
+    "Emergency Med-Family Med:": {
+      "Number_Matched": 5,
+      "Percentage_of_Matches": 0.0
+    },
+    "Family Medicine:": {
+      "Number_Matched": 1606,
+      "Percentage_of_Matches": 8.7
+    },
+    "Family Med-Preventive Med:": {
+      "Number_Matched": 1,
+      "Percentage_of_Matches": 0.0
+    },
+    "Internal Medicine (Categorical):": {
+      "Number_Matched": 3523,
+      "Percentage_of_Matches": 19.1
+    },
+    "Medicine-Anesthesiology:": {
+      "Number_Matched": 4,
+      "Percentage_of_Matches": 0.0
+    },
+    "Medicine-Dermatology:": {
+      "Number_Matched": 7,
+      "Percentage_of_Matches": 0.0
+    },
+    "Medicine-Emergency Med:": {
+      "Number_Matched": 19,
+      "Percentage_of_Matches": 0.1
+    },
+    "Medicine-Medical Genetics:": {
+      "Number_Matched": 3,
+      "Percentage_of_Matches": 0.0
+    },
+    "Medicine-Pediatrics:": {
+      "Number_Matched": 313,
+      "Percentage_of_Matches": 1.7
+    },
+    "Medicine-Preliminary (PGY-1 Only):": {
+      "Number_Matched": 1210,
+      "Percentage_of_Matches": 6.6
+    },
+    "Medicine-Preventive Med:": {
+      "Number_Matched": 2,
+      "Percentage_of_Matches": 0.0
+    },
+    "Medicine-Primary:": {
+      "Number_Matched": 251,
+      "Percentage_of_Matches": 1.4
+    },
+    "Medicine-Psychiatry:": {
+      "Number_Matched": 22,
+      "Percentage_of_Matches": 0.1
+    },
+    "Interventional Radiology (Integrated):": {
+      "Number_Matched": 30,
+      "Percentage_of_Matches": 0.2
+    },
+    "Neurodevelopmental Disabilities:": {
+      "Number_Matched": 3,
+      "Percentage_of_Matches": 0.0
+    },
+    "Neurological Surgery:": {
+      "Number_Matched": 198,
+      "Percentage_of_Matches": 1.1
+    },
+    "Neurology:": {
+      "Number_Matched": 358,
+      "Percentage_of_Matches": 1.9
+    },
+    "Obstetrics-Gynecology:": {
+      "Number_Matched": 1088,
+      "Percentage_of_Matches": 5.9
+    },
+    "OB/GYN-Preliminary (PGY-1 Only):": {
+      "Number_Matched": 6,
+      "Percentage_of_Matches": 0.0
+    },
+    "Orthopedic Surgery:": {
+      "Number_Matched": 699,
+      "Percentage_of_Matches": 3.8
+    },
+    "Osteo Neuromusculoskeletal Med:": {
+      "Number_Matched": 0,
+      "Percentage_of_Matches": 0.0
+    },
+    "Otolaryngology:": {
+      "Number_Matched": 310,
+      "Percentage_of_Matches": 1.7
+    },
+    "Pathology:": {
+      "Number_Matched": 198,
+      "Percentage_of_Matches": 1.1
+    },
+    "Pediatrics (Categorical):": {
+      "Number_Matched": 1749,
+      "Percentage_of_Matches": 9.5
+    },
+    "Pediatrics-Anesthesiology:": {
+      "Number_Matched": 8,
+      "Percentage_of_Matches": 0.0
+    },
+    "Pediatrics-Emergency Med:": {
+      "Number_Matched": 7,
+      "Percentage_of_Matches": 0.0
+    },
+    "Pediatrics-Medical Genetics:": {
+      "Number_Matched": 19,
+      "Percentage_of_Matches": 0.1
+    },
+    "Pediatrics-P M & R:": {
+      "Number_Matched": 2,
+      "Percentage_of_Matches": 0.0
+    },
+    "Pediatrics-Preliminary:": {
+      "Number_Matched": 16,
+      "Percentage_of_Matches": 0.1
+    },
+    "Pediatrics-Primary:": {
+      "Number_Matched": 39,
+      "Percentage_of_Matches": 0.2
+    },
+    "Peds/Psych/Child Psych:": {
+      "Number_Matched": 19,
+      "Percentage_of_Matches": 0.1
+    },
+    "Physical Medicine & Rehab:": {
+      "Number_Matched": 88,
+      "Percentage_of_Matches": 0.5
+    },
+    "Plastic Surgery (Integrated):": {
+      "Number_Matched": 167,
+      "Percentage_of_Matches": 0.9
+    },
+    "Psychiatry:": {
+      "Number_Matched": 1205,
+      "Percentage_of_Matches": 6.5
+    },
+    "Psychiatry-Family Medicine:": {
+      "Number_Matched": 11,
+      "Percentage_of_Matches": 0.1
+    },
+    "Psychiatry-Neurology:": {
+      "Number_Matched": 1,
+      "Percentage_of_Matches": 0.0
+    },
+    "Radiation Oncology:": {
+      "Number_Matched": 7,
+      "Percentage_of_Matches": 0.0
+    },
+    "Radiology-Diagnostic:": {
+      "Number_Matched": 71,
+      "Percentage_of_Matches": 0.4
+    },
+    "Surgery (Categorical):": {
+      "Number_Matched": 1029,
+      "Percentage_of_Matches": 5.6
+    },
+    "Surgery-Preliminary (PGY-1 Only):": {
+      "Number_Matched": 272,
+      "Percentage_of_Matches": 1.5
+    },
+    "Thoracic Surgery:": {
+      "Number_Matched": 43,
+      "Percentage_of_Matches": 0.2
+    },
+    "Transitional (PGY-1 Only):": {
+      "Number_Matched": 845,
+      "Percentage_of_Matches": 4.6
+    },
+    "Vascular Surgery:": {
+      "Number_Matched": 65,
+      "Percentage_of_Matches": 0.4
+    }
+  }
+}
