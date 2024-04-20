@@ -69,7 +69,7 @@ function App() {
   const [selectedYear, setSelectedYear] = useState(2024);
   const [selectedSpecialtyChart, setSelectedSpecialtyChart] = useState('Total PGY-1');
   const [selectedSpecialtyChartQuestion, setSelectedSpecialtyChartQuestion] = useState('Matched MDs');
-  const [selectedLongtermChart, setSelectedLongtermChart] = useState('Anesthesiology');
+  const [selectedLongtermChart, setSelectedLongtermChart] = useState('Anesthesiology:');
 
   const handleSpecialtyChange = (event) => {
     setSelectedSpecialty(event.target.value);
@@ -246,64 +246,9 @@ function App() {
           </Card>
         </div>
       </div>
-      <h2 className="text-2xl font-bold mb-6">MD VS DO Match and Unmatched Rates By Year</h2>
-      <div className="grid grid-cols-2 gap-12">
-        <h4 className="text-2xl font-bold mb-6">Select Medical Specialty</h4>
-            <select value={selectedSpecialtyChart} onChange={handleSpecialtyChartChange} className="mb-6">
-              <option value="Anesthesiology">Anesthesiology</option>
-              <option value="Child Neurology">Child Neurology</option>
-              <option value="Dermatology">Dermatology</option>
-              <option value="Emergency Medicine">Emergency Medicine</option>
-              <option value="Family Medicine">Family Medicine</option>
-              <option value="Internal Medicine">Internal Medicine</option>
-              <option value="Internal Medicine (Prelim)">Internal Medicine (Prelim)</option>
-              <option value="Internal Medicine/Emergency Medicine">Internal Medicine/Emergency Medicine</option>
-              <option value="Internal Medicine/Pediatrics">Internal Medicine/Pediatrics</option>
-              <option value="Internal Medicine/Psychiatry">Internal Medicine/Psychiatry</option>
-              <option value="Interventional Radiology">Interventional Radiology</option>
-              <option value="Neurological Surgery">Neurological Surgery</option>
-              <option value="Neurology">Neurology</option>
-              <option value="Obstetrics and Gynecology">Obstetrics and Gynecology</option>
-              <option value="Orthopaedic Surgery">Orthopaedic Surgery</option>
-              <option value="Osteo Neuromusculoskeletal Medicine">Osteo Neuromusculoskeletal Medicine</option>
-              <option value="Otolaryngology">Otolaryngology</option>
-              <option value="Pathology-Anatomic and Clinical">Pathology-Anatomic and Clinical</option>
-              <option value="Pediatrics">Pediatrics</option>
-              <option value="Pediatrics (Prelim)">Pediatrics (Prelim)</option>
-              <option value="Pediatrics/Medical Genetics">Pediatrics/Medical Genetics</option>
-              <option value="Pediatrics/Psychiatry/Child and Adolescent Psychiatry">Pediatrics/Psychiatry/Child and Adolescent Psychiatry</option>
-              <option value="Physical Medicine and Rehabilitation">Physical Medicine and Rehabilitation</option>
-              <option value="Plastic Surgery">Plastic Surgery</option>
-              <option value="Psychiatry">Psychiatry</option>
-              <option value="Radiation Oncology">Radiation Oncology</option>
-              <option value="Radiology-Diagnostic">Radiology-Diagnostic</option>
-              <option value="Surgery-General">Surgery-General</option>
-              <option value="Surgery-General (Prelim)">Surgery-General (Prelim)</option>
-              <option value="Thoracic Surgery">Thoracic Surgery</option>
-              <option value="Vascular Surgery">Vascular Surgery</option>
-              <option value="Total PGY-1">Total PGY-1</option>
-            </select>
- 
-        <LineChart
-          className="mt-4 h-72"
-          data={combinedNumberData}
-          index="Year"
-          yAxisWidth={65}
-          categories={[`${selectedSpecialtyChart}.Matched MDs`,`${selectedSpecialtyChart}.Unmatched MDs`,`${selectedSpecialtyChart}.Total MDs`]}
-          colors={['indigo','orange','cyan']}
-          
-        />
-        <LineChart
-          className="mt-4 h-72"
-          data={combinedNumberData}
-          index="Year"
-          yAxisWidth={65}
-          categories={[`${selectedSpecialtyChart}.Matched DOs`,`${selectedSpecialtyChart}.Unmatched DOs`,`${selectedSpecialtyChart}.Total DOs`]}
-          colors={['indigo','orange','cyan']}
-        />
-      </div>
+      
 
-      <h2 className="text-2xl font-bold mb-6">Longterm MD VS DO Total Matches</h2>
+      <h2 className="text-2xl font-bold mb-6">Longterm MD (Left) VS DO (Right) Total Matches</h2>
       <div className="grid grid-cols-2 gap-12">
         <h4 className="text-2xl font-bold mb-6">Select Medical Specialty</h4>
             <select value={selectedLongtermChart} onChange={handleLongtermChange} className="mb-6">
@@ -376,7 +321,7 @@ function App() {
               <option value="Vascular Surgery:">Vascular Surgery</option>
               
             </select>
- 
+            
         <LineChart
           className="mt-4 h-72"
           data={combinedLastMdData}
@@ -384,6 +329,7 @@ function App() {
           yAxisWidth={65}
           categories={[`results.${selectedLongtermChart}.Number_Matched`]}
           colors={['indigo']}
+          showLegend = {false}
           
         />
         <LineChart
@@ -393,6 +339,7 @@ function App() {
           yAxisWidth={65}
           categories={[`results.${selectedLongtermChart}.Number_Matched`]}
           colors={['indigo']}
+          showLegend = {false}
         />
       </div>
     </div>
